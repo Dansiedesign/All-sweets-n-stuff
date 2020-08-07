@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  font-family: 'lato', sans-serif;
+}
+
+p, blockquote {
+  font-size: .9em;
+  line-height: 1.6em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  padding: .8em 1.2em;
+}
+
+.logo {
+  width: 50px;
+}
+
+.hide-mobile {
+  display: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 25px;
+  margin-top: 45%;
+}
+
+.hero-container{
+  height: .25fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .5fr;
+  
+  background-color: #F5979A;
+  text-align: center;
+  margin-bottom: 1em;
+
+
+}
+
+.hero-image{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 1em;
+  width: 100%;
+  border-radius: 10px;
+  height: .25fr;
+  
+}
+
+
+.hero-logo {
+  
+  justify-content: center;
+  width: 100%;
+  
+}
+
+
+
+h1, .subhead {
+  align-items: flex-end;
+  z-index: 3;
+}
+
+.subhead {
+  font-size: 2.1em;
+}
+
+.schedule{
+  text-decoration: none;
+  color: black;
+
+}
+
+.schedulebutton{
+  background-color: #967BB6;
+  width: 50%;
+  display: block;
+  color: #fff;
+  border-radius: 20px;
+  padding: .5em;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 3% auto 7%;
+  position: relative;
+  padding-bottom: 1em;
+  
+}
+
+.secondcontainer{
+  display: grid inline-flexbox ;
+}
+
+.readmorebutton{
+  background-color: #967BB6;
+  width: 25%;
+  display: block;
+  color: #353535;
+  border-radius: 20px;
+  padding: .5em;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 3% auto 7%;
+  position: relative;
+}
+
+.products{ 
+  display: grid inline-flexbox;
+  background-color: #FFE599;
+  margin: 1em 0 1em;
+    
+}
+
+ul.productlist{
+
+
+  
+}
