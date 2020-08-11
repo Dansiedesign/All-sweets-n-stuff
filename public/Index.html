@@ -28,11 +28,9 @@
     </header>
   </div>
   <div class="hero-container">
-    <div class="hero-image">
-      <img src="images/Strawberries.jpg" alt="Strawberries">
-    </div>
+      <img src="images/Strawberries.jpg" alt="Strawberries" class="hero-image">
     <div class="hero-text">
-      <img src="images/Logosvg.svg" alt="Logo" class="hero-logo">
+      <img src="images/logoBG.png" alt="Logo" class="hero-logo">
       <h2 class="sub-head">Satisfy your sweet tooth today!</h2>
       <div class="schedulebutton">
       <a href="cta" class="schedule">Schedule</a>
@@ -97,6 +95,24 @@
     <a href="images/facebook.png">facebook</a>
     <a href="images/instagram.png">instagram</a>
   </div>
+
+  <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
   
 </body>
 </html>
